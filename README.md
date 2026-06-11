@@ -10,10 +10,12 @@ The pipeline is split into distinct structured phases—moving from core statist
 
 ```bash
 .
+├── Task 1 - Web Scraping/
+│   └── Web_Scraping.ipynb                     # Automated data extraction & parsing pipeline
 ├── Task 2 - Exploratory Data Analysis/
-│   └── Exploratory Data Analysis (EDA).ipynb  # Data profiling, cleaning & initial checks
+│   └── Exploratory Data Analysis (EDA).ipynb  # Data profiling, structural audits & sanity checks
 ├── Task 3 - Data Visualization/
-│   └── Data Visualization.ipynb               # Subplot orchestration & distribution rendering
+│   └── Data Visualization.ipynb               # Multi-plot dashboard orchestration & rendering
 ├── outputs/
-│   └── Companies.csv                          # Reference dataset of top 100 global corporations
+│   └── Companies.csv                          # The generated dataset of top 100 global corporations
 └── README.md                                  # Repository documentation (this file)
